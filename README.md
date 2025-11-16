@@ -1,5 +1,11 @@
 # LDAP Security Configuration Tester
 
+## Demo
+<!-- Video file: LDAP_SECURITY_TESTER_DEMO.mp4 -->
+<video controls width="720" src="LDAP_SECURITY_TESTER_DEMO.mp4">
+  Your browser does not support the video tag. Download the demo: [LDAP_SECURITY_TESTER_DEMO.mp4](LDAP_SECURITY_TESTER_DEMO.mp4)
+</video>
+
 A comprehensive tool for testing and validating LDAP security configurations across different authentication methods, signing, and sealing options. This tool helps security professionals and system administrators assess their Active Directory LDAP security posture.
 
 ## What This Tool Tests
@@ -13,6 +19,9 @@ This tool performs comprehensive security testing of LDAP connections to validat
 - **Transport Layer Security**: Verifies SSL/TLS (LDAPS) configuration
 - **Policy Compliance**: Checks against domain security policies
 
+Example Output:
+<!-- Screenshot: exampleCsvOutput.png -->
+![Example CSV Output](exampleCsvOutput.png)
 ### Security Scenarios Tested
 
 The tool generates a matrix of test cases covering:
